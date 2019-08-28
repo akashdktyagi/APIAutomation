@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+	<test name="GoRestAPI">
+		<classes>
+			<class name="restapi.gorest.TC_GoRest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<!-- 
+	<test name="ReqResAPI" enabled = "false">
+		<classes>
+			<class name="restapi.reqres.TC_ReqRes" />
+		</classes>
+	</test> 
+
+	<test name="CountriesAPI" enabled = "false">
+		<classes>
+			<class name="restapi.restcountrieseu.TC_RestApiCountries" />
+		</classes>
+	</test> 
+	
+	-->
+</suite> <!-- Suite -->
