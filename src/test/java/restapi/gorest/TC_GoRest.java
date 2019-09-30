@@ -220,7 +220,7 @@ public class TC_GoRest {
 				oauth2(_validAccessToken).
 		when().
 			post("/public-api/users").
-		then().log().body().
+		then().
 			body("_meta.code", equalTo(422)).//json path 
 			and().
 			body("_meta.message", equalTo("Data validation failed. Please check the response body for detailed error messages.")).
