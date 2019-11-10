@@ -2,7 +2,7 @@ package restapi.gorest;
 
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
+//import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
 import java.util.List;
@@ -15,6 +15,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
+import static org.hamcrest.Matchers.*;
 
 
 public class TC_GoRest {
